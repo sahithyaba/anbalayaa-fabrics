@@ -1,0 +1,21 @@
+.Whatapp{
+  position: fixed;
+  bottom: 0px;
+  padding: 1.2rem;
+  right: 0;
+  margin: auto;
+  color: white;
+  line-height: 65px;
+  font-size: 23px;
+  z-index: 100;
+}
+
+
+img {
+  width: 150px;
+  height: 11vh ;
+  width: auto;
+  border-radius: 100%;
+}
+
+

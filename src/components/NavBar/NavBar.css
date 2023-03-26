@@ -1,0 +1,45 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 200, 210);
+
+}
+
+.Logo{
+    padding: 1.5rem;
+}
+
+.Logo a{
+    text-decoration: none !important;
+}
+
+.Logo a h4{
+    color: black;
+    font-weight: bold;
+}
+
+
+.NavBar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    gap: 45px;
+}
+
+.NavBar1 a{
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+.NavBar>div>button{
+    background: #F7EDE2;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+}

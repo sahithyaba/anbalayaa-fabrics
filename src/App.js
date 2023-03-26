@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import Contact from './components/contact/Contact';
+import Home from './components/home/Home';
+import Product from './components/product/Product';
+import JoinWhatsapp from './components/JoinWhatsapp/JoinWhatsapp';
+import { Route,Routes } from 'react-router-dom';
+import {Bootstrap} from 'react-bootstrap'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar/>  
+      <Routes>
+           <Route path="/" element={<Home/>}></Route>
+            <Route path="/Product" element={<Product/>}></Route>
+            <Route path="/Contact" element={<Contact/>}></Route>
+      </Routes>
+      <JoinWhatsapp/>
     </div>
+      
   );
 }
 
