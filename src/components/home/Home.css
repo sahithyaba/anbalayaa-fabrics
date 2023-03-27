@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
 .home{
     background: rgb(255, 200, 210);
   display: flex;
   flex-direction: column;
   width: auto;
-  overflow: hidden+ 
+  overflow: hidden;
 }
 .book-content{
   margin-top: 30px;
@@ -27,6 +29,12 @@
     font-size: large;
     text-align: center;
 }
+
+.heading> h1{
+  font-family: 'Damion', cursive;
+  font-weight: 400;
+}
+
 .home-content{
     /* margin-left: 100px; */
     text-align: center;
