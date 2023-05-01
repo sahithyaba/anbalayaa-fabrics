@@ -6,9 +6,9 @@ import { Button } from 'react-bootstrap';
 //import Product from '../product/Product';
 // import Home from '../home/Home';
 // import {Routes, Route, useNavigate} from 'react-router-dom';
-const NavBar = () =>{
 
-    const navigate = useNavigate();
+const NavBar = () => {
+  const navigate = useNavigate();
 
     return (
         <div className='NavBar row px-5'>

@@ -29,59 +29,62 @@ function Home() {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
-
-    <div className='home'>
-      <div className='heading'>
-        <h1>Welcome to<br /> Anbalaya-A-Fabric</h1>
+    <div className="home ">
+      <div className="heading row py-3">
+        <h1 className="col-md-12">
+          Welcome to
+          <br /> Anbalaya-A-Fabric
+        </h1>
       </div>
-      <div className='home-content'>
-        <p>We are Manufacturer & Exporters of Home furnishing, Made-ups and garment fabrics</p>
-        <p>We deal with 100% cotton,Polyester,Lycra, Linen,Jute and all Man made Fibres.</p>
+      <div className="home-content">
+        <p>
+          We are Manufacturer & Exporters of Home furnishing, Made-ups and
+          garment fabrics
+        </p>
+        <p>
+          We deal with 100% cotton,Polyester,Lycra, Linen,Jute and all Man made
+          Fibres.
+        </p>
         <p>We Weave in Handloom, Power loom & Auto loom</p>
       </div>
-     
+
       <div className="book-content">
-          <Slider {...settings}>
-            {productImages.map((item) => (
-              <div className="bookCard">
-                <div className="bookCard-top">
-                  <img src={item.img} alt="bookCard"/>
-                
-                </div>
-                
+        <Slider {...settings}>
+          {productImages.map((item) => (
+            <div className="bookCard">
+              <div className="bookCard-top">
+                <img src={item.img} alt="bookCard" />
+              </div>
               </div>
             ))}
-
-          </Slider>
+            </Slider>
         </div>
-        <img src={infra1}/>
-        <img src={infra}/>
+      <img src={infra1} />
+      <img src={infra} />
 
     </div>
-
-
   );
 }
 
