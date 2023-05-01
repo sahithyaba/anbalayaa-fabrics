@@ -2,19 +2,19 @@
   position: fixed;
   bottom: 0px;
   padding: 1.2rem;
-  right: 0;
+  right: 200px;
   margin: auto;
   color: white;
   line-height: 65px;
-  font-size: 23px;
+  font-size: 20px;
   z-index: 100;
 }
 
 
 img {
-  width: 150px;
-  height: 11vh ;
-  width: auto;
+  /* width: 150px; */
+  height: 9vh ;
+  /* width: auto; */
   border-radius: 100%;
 }
 

@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   width: auto;
-  overflow: hidden+ 
+  overflow: hidden;
+  height: 1000px;
 }
 .book-content{
   margin-top: 30px;

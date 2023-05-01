@@ -1,0 +1,37 @@
+.auth-wrapper{
+    margin-top: 50px;
+}
+
+.auth-inner{
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.image-title{
+    margin-right: 3rem;
+}
+
+.image-view{
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.input-img{
+    margin-left: 10px;
+}
+
+.border{
+    box-sizing: border-box;    
+}
+
+.logout{
+    border: brown;
+    border-style: double;
+    font-size: larger;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-left: 1200px;
+}

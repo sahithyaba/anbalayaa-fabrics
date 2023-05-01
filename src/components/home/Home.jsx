@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css';
 import { productImages } from '../../Data/Data';
+import infra1 from '../../Resources/infra1.png';
+import infra from '../../Resources/infra.png'
 // import {Swiper,SwiperSlide} from 'swiper/react';
 // import 'swiper/swiper.min.css';
 // import 'swiper/components/effect-coverflow/effect-coverflow.min.css';
@@ -74,6 +76,8 @@ function Home() {
 
           </Slider>
         </div>
+        <img src={infra1}/>
+        <img src={infra}/>
 
     </div>
 

@@ -1,0 +1,24 @@
+.Invoice{
+    position: fixed;
+    bottom: 15px;
+    right: 120px;
+    margin: auto;
+    background: none;
+    color: white;
+    line-height: 65px;
+    font-size: 23px;
+    border:none;
+    z-index: 100;
+    border-radius: 100%;
+  }
+  
+  
+.image {
+    width: 120px;
+    height: 10vh ;
+    width: auto;
+    border-radius: 100%;
+  }
+  #down{
+    margin-left: 10px;
+  }

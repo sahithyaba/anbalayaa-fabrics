@@ -7,6 +7,13 @@ import Product from './components/product/Product';
 import JoinWhatsapp from './components/JoinWhatsapp/JoinWhatsapp';
 import { Route,Routes } from 'react-router-dom';
 import {Bootstrap} from 'react-bootstrap'
+import Proforma from './components/proforma/Proforma';
+import Invoice from './components/invoice/Invoice';
+import Chat from './components/Chat';
+import ImageUpload from './components/ImageUpload/ImageUpload';
+import Admin from './pages/Admin';
+import About from './components/about/About';
+// import Login from './components/Login/Login'
 
 function App() {
   return (
@@ -16,8 +23,18 @@ function App() {
            <Route path="/" element={<Home/>}></Route>
             <Route path="/Product" element={<Product/>}></Route>
             <Route path="/Contact" element={<Contact/>}></Route>
+            <Route path="/Invoice" element={<Invoice/>}></Route>
+            <Route path="/Admin" element={<Admin/>}></Route>
+            <Route path="/ImageUpload" element={<ImageUpload/>}></Route>
+            <Route path="/About" element={<About/>}></Route>
       </Routes>
       <JoinWhatsapp/>
+      <Proforma/>
+      {/* <ImageUpload/> */}
+      {/* <Admin/> */}
+      {/* <Login/> */}
+      <Chat/>
+
     </div>
       
   );
