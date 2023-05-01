@@ -81,8 +81,11 @@ function Home() {
             ))}
             </Slider>
         </div>
-      <img src={infra1} />
-      <img src={infra} />
+        <div className='infra_img'>
+        <img src={infra1} className='infra'/>
+        <img src={infra} className='infra'/>
+        </div>
+      
 
     </div>
   );

@@ -17,7 +17,7 @@ const NavBar = () => {
             </div>
             <div className='NavBar1 col-md-7  '> 
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/About">About Us</NavLink>
+                <NavLink to="/AboutUs">About Us</NavLink>
                 <NavLink to="/Contact">Contact</NavLink>
             </div>
             <div className='col-md-2'>
