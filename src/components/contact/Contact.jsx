@@ -55,6 +55,16 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.0274272966976!2d78.07297109999999!3d10.961300699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa2faf6d4958d3%3A0xa081086a52009dcc!2sANBALAYA%20-A-%20FABRIC!5e0!3m2!1sen!2sin!4v1682963259972!5m2!1sen!2sin" 
+      width="100%" 
+      height="450" 
+      style={{border:0}} 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+
+      </iframe>
     </div>
   )
 }
