@@ -177,7 +177,7 @@ function ImageUpload(){
 
             <div className="auth-inner" style={{width: "auto"}}>
                 <label className="image-title" >Image 2: </label> 
-                {image2=="" || image2==null?"": <img width={150} height={100} src={image2} className="image-view"/>} 
+                {image2=="" || image2==null?"": <img src={image2} className="image-view"/>} 
                 <input 
                     type="file" 
                     accept="image/*" 
