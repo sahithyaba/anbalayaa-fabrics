@@ -260,7 +260,17 @@ function ImageUpload(){
                 <button onClick={uploadImage}>Upload Image 8</button>               
             </div>
 
-            
+            <div className="auth-inner" style={{width: "auto"}}>
+                <label className="image-title" >Image 9: </label> 
+                {image9=="" || image9==null?"": <img width={150} height={100} src={image9} className="image-view"/>} 
+                <input 
+                    type="file" 
+                    accept="image/*" 
+                    onChange={convertToBase64}
+                    className="input-img"
+                />
+                <button onClick={uploadImage}>Upload Image 9</button>               
+            </div> */}
 
             <div className="border">
                 <div className="logout">Logout</div>
