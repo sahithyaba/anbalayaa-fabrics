@@ -18,126 +18,126 @@ function ImageUpload(){
         };
     }
 
-    // const[image2,setImage2] = useState("");
+    const[image2,setImage2] = useState("");
     
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
-    // const[image3,setImage3] = useState("");
+    const[image3,setImage3] = useState("");
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
-    // const[image4,setImage4] = useState("");
+    const[image4,setImage4] = useState("");
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
-    // const[image5,setImage5] = useState("");
+    const[image5,setImage5] = useState("");
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
-    // const[image6,setImage6] = useState("");
+    const[image6,setImage6] = useState("");
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
-    // const[image7,setImage7] = useState("");
+    const[image7,setImage7] = useState("");
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
-    // const[image8,setImage8] = useState("");
+    const[image8,setImage8] = useState("");
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
-    // const[image9,setImage9] = useState("");
+    const[image9,setImage9] = useState("");
 
-    // function convertToBase64(e){
-    //     console.log(e);
-    //     var reader = new FileReader();
-    //     reader.readAsDataURL(e.target.files[0]);
-    //     reader.onload = () => {
-    //         console.log(reader.result);
-    //         setImage(reader.result);
-    //     };
-    //     reader.onerror = error => {
-    //         console.log("Error: ",error);
-    //     };
-    // }
+    function convertToBase64(e){
+        console.log(e);
+        var reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = () => {
+            console.log(reader.result);
+            setImage(reader.result);
+        };
+        reader.onerror = error => {
+            console.log("Error: ",error);
+        };
+    }
 
     function uploadImage(){
         fetch("http://localhost:5000/upload-image",{
@@ -165,7 +165,7 @@ function ImageUpload(){
 <br/>
             {image=="" || image==null?"": <img width={200} height={150} src={image} className="image-view"/>}
             <div className="auth-inner" style={{width: "auto"}}>
-                <label className="image-title" >Image : </label> 
+                <label className="image-title" >Image 1: </label> 
                  
                 <input 
                     type="file" 
@@ -173,10 +173,10 @@ function ImageUpload(){
                     onChange={convertToBase64}
                     className="input-img"
                 />
-                <button onClick={uploadImage}>Upload Image </button>               
+                <button onClick={uploadImage}>Upload Image 1</button>               
             </div>
 
-            {/* <div className="auth-inner" style={{width: "auto"}}>
+            <div className="auth-inner" style={{width: "auto"}}>
                 <label className="image-title" >Image 2: </label> 
                 {image2=="" || image2==null?"": <img src={image2} className="image-view"/>} 
                 <input 
@@ -270,7 +270,7 @@ function ImageUpload(){
                     className="input-img"
                 />
                 <button onClick={uploadImage}>Upload Image 9</button>               
-            </div> */}
+            </div>
 
             <div className="border">
                 <div className="logout">Logout</div>
