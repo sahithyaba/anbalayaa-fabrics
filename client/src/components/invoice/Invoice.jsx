@@ -51,6 +51,7 @@ const Invoice = (e) => {
                     <h5><b>Anbalayaa A Fabrics</b></h5>
                 </div>
                 <div className='col-md-6'>
+                    <label htmlFor="Date"> Date:</label>
                     <input type='text' className='form-control' name='Date' placeholder='Date' required/>
                 </div>
             </div> 
@@ -59,7 +60,8 @@ const Invoice = (e) => {
                     <p>41, Kamarajapuram North, 4th Cross Corner, Karur – 639002. Tamilnadu.India.Design by Harsha infotech</p>
                 </div>
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Date Of Expiry' placeholder='Date Of Expiry' required/>
+                <label htmlFor="DateofExpiry"> Date of Expiry:</label>
+                    <input type='text' className='form-control' name='Date Of Expiry' placeholder='Date Of Expiry' tooltip='Date of Expiry' required/>
                 </div>
             </div> 
             <div className="row ">
@@ -70,8 +72,11 @@ const Invoice = (e) => {
 
 
                 </div>
+                
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Estimate No' placeholder='Estimate No' required/>
+                    <br />
+                <label htmlFor="Estimate No"> Estimate No:</label>
+                    <input type='text' className='form-control' name='Estimate No' placeholder='Estimate No' tooltip='Estimate No' required/>
                 </div>
             </div> 
             <div className="row">
@@ -79,6 +84,8 @@ const Invoice = (e) => {
                     <p><b>Mail</b> : info@anbalaya.biz, admin@anbalaya.biz</p>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="Customer ID"> Customer ID:</label>
                     <input type='text' className='form-control' name='Customer ID' placeholder='Customer ID' required/>
                 </div>
             </div> 
@@ -94,38 +101,56 @@ const Invoice = (e) => {
             <hr/>
             <div className="row">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="ContactName">Contact Name:</label>
                     <input type='text' className='form-control' name='Contact Name' placeholder='Contact Name' required/>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="Name/Dept"> Name/Dept</label>
                     <input type='text' className='form-control' name='Name/Dept' placeholder='Name/Dept' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Client Company Name:</label>
                     <input type='text' className='form-control' name='Client Company Name' placeholder='Client Company Name' required/>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Client Company Name:</label>
                     <input type='text' className='form-control' name='Client Comapny Name' placeholder='Client Comapny Name' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Address:</label>
                     <input type='text' className='form-control' name='Address' placeholder='Address' required/>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Address:</label>
                     <input type='text' className='form-control' name='Address' placeholder='Address' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Phone:</label>
                     <input type='text' className='form-control' name='Phone' placeholder='Phone' required/>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Phone:</label>
                     <input type='text' className='form-control' name='Phone' placeholder='Phone' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Email:</label>
                     <input type='email' className='form-control' name='Email' placeholder='Email' required/>
                 </div>
                 
@@ -140,52 +165,77 @@ const Invoice = (e) => {
             <hr/>
             <div className="row">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">P.O.# :</label>
                     <input type='text' className='form-control' name='P.O.#' placeholder='P.O.#' required/>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Mode of Transportation:</label>
                     <input type='text' className='form-control' name='Mode of Transportation' placeholder='Mode of Transportation' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">P.O.Date:</label>
                     <input type='text' className='form-control' name='P.O.Date' placeholder='P.O.Date' required/>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Transportation Terms:</label>
                     <input type='text' className='form-control' name='Transportation Terms' placeholder='Transportation Terms' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Letter of Credit #:</label>
                     <input type='text' className='form-control' name='Letter Of Credit #' placeholder='Letter Of Credit #' required/>
                 </div>
                 <div className='col-md-6'>
+                    <br />
+                    <label htmlFor="">Number of Packages:</label>
                     <input type='text' className='form-control' name='Number Of Packages' placeholder='Number Of Packages' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Currency' placeholder='Currency'/>
+                    <br />
+                    <label htmlFor="">Currency: </label>
+                    <input type='text' className='form-control' name='Currency' placeholder='Currency' tooltip='Currency' />
                 </div>
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Est. Gross Weight' placeholder='Est. Gross Weight' required/>
+                    <br />
+                    <label htmlFor="">Est. Gross Weight: </label>
+                    <input type='text' className='form-control' name='Est. Gross Weight' placeholder='Est. Gross Weight' tooltip='Est. Gross Weight' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Payment Terms' placeholder='Payment Terms' required/>
+                    <br />
+                    <label htmlFor="">Payment Terms:</label>
+                    <input type='text' className='form-control' name='Payment Terms' placeholder='Payment Terms' tooltip='Payment Terms' required/>
                 </div>
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Est. Net Weight' placeholder='Est. Net Weight' required/>
+                    <br />
+                    <label htmlFor="">Est. Net Weight:</label>
+                    <input type='text' className='form-control' name='Est. Net Weight' placeholder='Est. Net Weight' tooltip='Est. Net Weight' required/>
                 </div>
             </div>
             <div className="row mt-4">
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Est. Ship Date' placeholder='Est. Ship Date' required/>
+                    <br />
+                    <label htmlFor="">Est. Ship Date:</label>
+                    <input type='text' className='form-control' name='Est. Ship Date' placeholder='Est. Ship Date' tooltip= 'Est. Ship Date' required/>
                 </div>
                 <div className='col-md-6'>
-                    <input type='text' className='form-control' name='Carrier' placeholder='Carrier' required/>
+                    <br />
+                    <label htmlFor="">Carrier:</label>
+                    <input type='text' className='form-control' name='Carrier' placeholder='Carrier' tooltip='Carrier' required/>
                 </div>
             </div>
+            <br />
             <hr/>
 <div id='contact-form'>
     <div>

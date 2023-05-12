@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import "./ImageUpload.css"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function ImageUpload(){
 
@@ -11,10 +13,12 @@ function ImageUpload(){
         reader.readAsDataURL(e.target.files[0]);
         reader.onload = () => {
             console.log(reader.result);
+            toast.success(`Image Upload Successful!`);
             setImage(reader.result);
         };
         reader.onerror = error => {
             console.log("Error: ",error);
+            toast.error(`Image Upload Failed!`);
         };
     }
 
@@ -163,6 +167,7 @@ function ImageUpload(){
             </center>
            
 <br/>
+<ToastContainer position="top-right"/>
             {image=="" || image==null?"": <img width={200} height={150} src={image} className="image-view"/>}
             <div className="auth-inner" style={{width: "auto"}}>
                 <label className="image-title" >Image 1: </label> 
