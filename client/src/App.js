@@ -28,6 +28,7 @@ function App() {
             <Route path="/ImageUpload" element={<ImageUpload/>}></Route>
             <Route path="/AboutUs" element={<AboutUs/>}></Route>
       </Routes>
+      <h6>Copyright @Anbalaya A Fabrics</h6>
       <JoinWhatsapp/>
       <Proforma/>
       {/* <ImageUpload/> */}

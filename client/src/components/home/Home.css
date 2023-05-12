@@ -6,7 +6,7 @@
   flex-direction: column;
   width: auto;
   overflow: hidden;
-  height: 1000px;
+  height: 600px;
 }
 .book-content{
   margin-top: 30px;
@@ -74,7 +74,9 @@
 }
 
 .infra_img{
-  margin-top: 45px;
+  margin-top: -95px;
+  transform: scale(0.8);
+  margin-bottom: -25px;
 }
 
 .infra{
