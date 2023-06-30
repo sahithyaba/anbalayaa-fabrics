@@ -3,11 +3,8 @@ import React, { Component } from "react";
 export default class Chat extends Component {
   componentDidMount() {
     (function (d, m) {
-      var kommunicateSettings = {
-        appId: "104d68e27942a95322d75c58c3e94cd3f",
-        popupWidget: true,
-        automaticChatOpenOnNavigation: true,
-      };
+      var kommunicateSettings = 
+            {"appId":"33452131b1506b1d61225344b1115ba92","popupWidget":true,"automaticChatOpenOnNavigation":true};
       var s = document.createElement("script");
       s.type = "text/javascript";
       s.async = true;
@@ -18,6 +15,7 @@ export default class Chat extends Component {
       m._globals = kommunicateSettings;
     })(document, window.kommunicate || {});
   }
+  
 
   render() {
     return (

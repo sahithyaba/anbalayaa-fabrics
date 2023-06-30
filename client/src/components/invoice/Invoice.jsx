@@ -51,8 +51,8 @@ const Invoice = (e) => {
                     <h5><b>Anbalayaa A Fabrics</b></h5>
                 </div>
                 <div className='col-md-6'>
-                    <label htmlFor="Date"> Date:</label>
-                    <input type='text' className='form-control' name='Date' placeholder='Date' required/>
+                    <label htmlFor="Dispatch-Date"> Dispatch Date:</label>
+                    <input type='text' className='form-control' name='Date' placeholder='Dispatch Date' required/>
                 </div>
             </div> 
             <div className="row mt-3">

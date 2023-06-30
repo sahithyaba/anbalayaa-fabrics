@@ -2,9 +2,12 @@ import React, {useState} from "react";
 import "./ImageUpload.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+
 
 function ImageUpload(){
-
+    const navigate = useNavigate();
     const[image,setImage] = useState("");
 
     function convertToBase64(e){
@@ -278,7 +281,8 @@ function ImageUpload(){
             </div>
 
             <div className="border">
-                <div className="logout">Logout</div>
+                {/* <div className="logout">Logout</div> */}
+                <Button className="logout" onClick={()=>navigate("/")}>Logout</Button>
             </div>
               
         </div>
